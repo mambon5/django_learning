@@ -30,6 +30,7 @@
 ## Python Django tutorial 
 1. From this python tutorial about django: https://realpython.com/get-started-with-django-1/
 2. Another tutorial on how to build a *polling app* > https://docs.djangoproject.com/en/4.1/intro/tutorial01/
+3. Good explanation of what is Django and how it's structured > https://www.w3schools.com/django/django_intro.php
 
 ### How to import files and functions 
 Depends on the entry-point script.

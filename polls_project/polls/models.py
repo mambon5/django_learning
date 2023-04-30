@@ -8,7 +8,7 @@ class Question(models.Model):
     pub_date = models.DateTimeField('date published')
     
     def __str__(self):
-        return self.question_text
+        return "{} : {}".format(self.question_text, self.pub_date)
 
 
 class Choice(models.Model):
