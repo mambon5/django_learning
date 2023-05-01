@@ -20,7 +20,7 @@
 
   1. > Django tutorial, Blog App: Templates  https://www.removepaywall.com/article/current#blog-app-templates
   2. From the second tutorial, I stopped here: > https://docs.djangoproject.com/en/4.1/intro/tutorial02/  "Go to http://localhost:8000/polls/ in your browser, and you should see the text “Hello, world. You’re at the polls index.”, which"
-  3. Part 3 ofthe second tutorial > https://docs.djangoproject.com/en/4.1/intro/tutorial03/
+  3. Part 3 ofthe second tutorial > https://docs.djangoproject.com/en/4.1/intro/tutorial03/ , in particular the part before **Namespacing URL names**.
    
 ## Learned things  
 
