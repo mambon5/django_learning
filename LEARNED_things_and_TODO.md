@@ -20,7 +20,7 @@
 
   1. > Django tutorial, Blog App: Templates  https://www.removepaywall.com/article/current#blog-app-templates
   2. From the second tutorial, I stopped here: > https://docs.djangoproject.com/en/4.1/intro/tutorial02/  "Go to http://localhost:8000/polls/ in your browser, and you should see the text “Hello, world. You’re at the polls index.”, which"
-  3. Part 4 ofthe second tutorial > https://docs.djangoproject.com/en/4.1/intro/tutorial04/ around here > Use generic views: Less code is better¶:
+  3. Part 7 of the second tutorial > https://docs.djangoproject.com/en/4.1/intro/tutorial07/ around the beggining
 
     request.POST is a   
 ## Learned things  
@@ -113,6 +113,9 @@ for activating the previously created python virtual environment. In order to ru
  As the tutorial says: *view functions to send the data from the database to the HTML templates*
 
 ### Django admin for adding data to the tables
+
+user: roma
+password: adminadmin
 
 ### How does the url.py work?
 
