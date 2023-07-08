@@ -4,6 +4,8 @@
   - [TO DO list](#to-do-list)
   - [I was last doing:](#i-was-last-doing)
   - [Learned things](#learned-things)
+  - [GIMP web design](#gimp-web-design)
+    - [Designing buttons](#designing-buttons)
   - [Python Django tutorial](#python-django-tutorial)
     - [How to import files and functions](#how-to-import-files-and-functions)
     - [Activate python virtual environment \& server](#activate-python-virtual-environment--server)
@@ -20,13 +22,20 @@
 
   1. > Django tutorial, Blog App: Templates  https://www.removepaywall.com/article/current#blog-app-templates
   2. From the second tutorial, I stopped here: > https://docs.djangoproject.com/en/4.1/intro/tutorial02/  "Go to http://localhost:8000/polls/ in your browser, and you should see the text “Hello, world. You’re at the polls index.”, which"
-  3. Part 7 of the second tutorial > https://docs.djangoproject.com/en/4.1/intro/tutorial07/ around the beggining
-
-    request.POST is a   
+  3. Part 7 of the second tutorial > https://docs.djangoproject.com/en/4.1/intro/tutorial07/ Customize the admin index page¶
+  4. Advanced tutorial writing reusable apps: https://docs.djangoproject.com/en/4.1/intro/reusable-apps/
 ## Learned things  
 
 1. It is NOT the same thing, to create a python project than to create a python app. Each project can have multiple apps running on it, and each app can be running 
   in multiple projects.
+
+## GIMP web design
+
+### Designing buttons
+
+This is good tutorial to learn the basics of a simple buton design: > https://www.gimpusers.com/tutorials/create-sytlish-buttons
+
+
 
 ## Python Django tutorial 
 1. From this python tutorial about django: https://realpython.com/get-started-with-django-1/
