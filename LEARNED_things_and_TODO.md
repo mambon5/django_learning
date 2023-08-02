@@ -6,7 +6,9 @@
   - [Learned things](#learned-things)
   - [GIMP web design](#gimp-web-design)
     - [Designing buttons](#designing-buttons)
+    - [Names for the trivial democràtic app:](#names-for-the-trivial-democràtic-app)
   - [Python Django tutorial](#python-django-tutorial)
+    - [Displaying information from multiple apps](#displaying-information-from-multiple-apps)
     - [How to import files and functions](#how-to-import-files-and-functions)
     - [Activate python virtual environment \& server](#activate-python-virtual-environment--server)
     - [Bootstrap for CSS styling in Python:](#bootstrap-for-css-styling-in-python)
@@ -24,6 +26,7 @@
   2. From the second tutorial, I stopped here: > https://docs.djangoproject.com/en/4.1/intro/tutorial02/  "Go to http://localhost:8000/polls/ in your browser, and you should see the text “Hello, world. You’re at the polls index.”, which"
   3. Part 7 of the second tutorial > https://docs.djangoproject.com/en/4.1/intro/tutorial07/ Customize the admin index page¶
   4. Advanced tutorial writing reusable apps: https://docs.djangoproject.com/en/4.1/intro/reusable-apps/
+  5. I was already creating my app *politrivial*.
 ## Learned things  
 
 1. It is NOT the same thing, to create a python project than to create a python app. Each project can have multiple apps running on it, and each app can be running 
@@ -35,12 +38,30 @@
 
 This is good tutorial to learn the basics of a simple buton design: > https://www.gimpusers.com/tutorials/create-sytlish-buttons
 
+### Names for the trivial democràtic app:
 
+-¿Quien quiere ser político?
+- Qui vol ser polític?
 
 ## Python Django tutorial 
 1. From this python tutorial about django: https://realpython.com/get-started-with-django-1/
 2. Another tutorial on how to build a *polling app* > https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 3. Good explanation of what is Django and how it's structured > https://www.w3schools.com/django/django_intro.php
+
+
+### Displaying information from multiple apps
+
+Here is a way on how to do it > https://forum.djangoproject.com/t/view-from-multiple-apps/2745
+The idea is to have the view that will render the page, call the different apps and gather that information like so:
+```
+def home_page_view(request):
+    last_3_blogs = blog_app.get_last_3_posts()
+    last_3_images = image_gallery_app.get_last_3_images()
+    highest_ranked_movies = movie_ranking_app.get_top_3()
+    context = {'blog_posts': last_3_blogs, 'images': last_3_images, 'movies': highest_ranked_movies}
+    return render(request, 'home/page.html', context)
+```
+
 
 ### How to import files and functions 
 Depends on the entry-point script.
