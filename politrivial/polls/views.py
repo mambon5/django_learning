@@ -21,6 +21,15 @@ class IndexView(generic.ListView):
         """
         return Question.objects.filter(pub_date__lte=timezone.now()).order_by("-pub_date")[:5]
 
+class PrincipalView(generic.ListView):
+    template_name = "polls/pantalla_principal.html"
+    # context_object_name="latest_question_list"
+    def get_queryset(self):
+        """
+        I had to erase the query set for principal view to work without any model
+        """
+        return 
+
 class DetailView(generic.DetailView):
     model=Question
     template_name = "polls/detail.html"

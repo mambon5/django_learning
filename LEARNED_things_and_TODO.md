@@ -4,6 +4,7 @@
   - [TO DO list](#to-do-list)
   - [I was last doing:](#i-was-last-doing)
   - [Learned things](#learned-things)
+    - [CSS with Django](#css-with-django)
   - [GIMP web design](#gimp-web-design)
     - [Designing buttons](#designing-buttons)
     - [Names for the trivial democràtic app:](#names-for-the-trivial-democràtic-app)
@@ -31,6 +32,12 @@
 
 1. It is NOT the same thing, to create a python project than to create a python app. Each project can have multiple apps running on it, and each app can be running 
   in multiple projects.
+
+2. The views should be *skinny* and the models should be *fat*. As explained here > https://www.toptal.com/django/django-top-10-mistakes
+
+### CSS with Django
+
+1. This is not specific to Django, but usually you have to clear Cache if you want to update your css changes, it happened to me a couple of times that I don't see the last changes I did with CSS and I blamed it on Django rather than on me, lolz.
 
 ## GIMP web design
 

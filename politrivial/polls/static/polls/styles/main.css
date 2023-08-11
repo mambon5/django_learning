@@ -3,10 +3,32 @@
 } */
 
 body {
-    background: white url("../images/congres_diputats.png");
+    background: white url("../images/fons.png");
     background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover; background-position: top; 
     font-family: "DM_Sans";
    
+}
+
+#start-logo {
+  margin: auto;
+  border: 3px solid green;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  
+
+}
+
+#start-logo img {
+  /* max-width: 20%; */
+  height:15%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .pregunta {
@@ -29,3 +51,26 @@ body {
     font-family: 'DM_Sans';
     src: url('../fonts/DM_Sans/DMSans-Regular.ttf') format("truetype");
   }
+
+ /* the below media objects are meant to render the page differently depending on 
+ the device screen size */
+ @media screen and (min-width: 769px) {
+   body {
+     background: url("../images/fons.png");
+     background-repeat: no-repeat;
+     width: 100%;
+     background-size: cover; background-position: top; 
+     font-family: "DM_Sans";
+     
+   }
+ }
+ 
+ @media screen and (min-width: 1200px) {
+    body {
+     background: url("../images/fons_ordinador.png");
+     background-repeat: no-repeat;
+     width: 100%;
+     background-size: cover; background-position: top; 
+     font-family: "DM_Sans";
+   }
+ }
